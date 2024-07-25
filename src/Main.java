@@ -18,7 +18,7 @@ public class Main {
     public static void task1() {
         System.out.println();
         System.out.println("Задание №1");
-        int year = 1584;
+        int year = LocalDate.now().getYear();
         printingYear(year);
     }
 
